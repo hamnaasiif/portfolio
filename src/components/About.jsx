@@ -119,7 +119,7 @@ const About = () => {
                             <>
                                 <div className="avatar-container-retro">
                                     <div className="avatar-circle">
-                                        <img src="/ava.png" alt="Hamna Asif" className="retro-avatar" />
+                                        <img src={`${import.meta.env.BASE_URL}ava.png`} alt="Hamna Asif" className="retro-avatar" />
                                     </div>
                                 </div>
                                 <div className="profile-text">
@@ -187,7 +187,7 @@ const About = () => {
                                 <div className="wct-line">
                                     <span className="wct-prompt">&gt;</span>
                                     <a
-                                        href="/hamna_asif_resume.pdf"
+                                        href={`${import.meta.env.BASE_URL}hamna_asif_resume.pdf`}
                                         download
                                         className="wct-link"
                                     >

@@ -11,7 +11,7 @@ const projects = [
         color: '#C0392B',
         description: '// a full-stack space where art meets the internet.\n\nA platform for art showcase, exhibitions, and e-commerce\n— with user auth, image uploads, and real transactions.',
         stack: ['MongoDB', 'Express', 'React', 'Node.js', 'JWT', 'Multer', 'Cloudinary', 'Nodemailer'],
-        demo: '/demos/01_art-gallery.mp4',
+        demo: `${import.meta.env.BASE_URL}demos/01_art-gallery.mp4`,
         repo: 'https://github.com/hamnaasiif/Arte-Gallery-Demo',
     },
     {
@@ -37,7 +37,7 @@ const projects = [
         color: '#B8941F',
         description: '// because language barriers shouldn\'t include sign language.\n\nAI platform that translates Urdu/English video into \nPakistani Sign Language glosses — speech to gloss, end to end.',
         stack: ['Node.js', 'MongoDB', 'OpenAI Whisper', 'NLP Engine', 'JWT', 'FFmpeg', 'React'],
-        demo: '/demos/03_signity.mp4',
+        demo: `${import.meta.env.BASE_URL}demos/03_signity.mp4`,
         repo: null,
     }
 ];

@@ -28,7 +28,7 @@ const Hero = () => {
 
                     {/* Right Side - Avatar */}
                     <div className="avatar-container">
-                        <img src="/avatar.png" alt="Hamna Asif" className="hero-avatar" />
+                        <img src={`${import.meta.env.BASE_URL}avatar.png`} alt="Hamna Asif" className="hero-avatar" />
                     </div>
                 </div>
 
