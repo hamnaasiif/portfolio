@@ -35,7 +35,7 @@ const projects = [
         tag: '[FYP ★]',
         year: '2024',
         color: '#B8941F',
-        description: '// because language barriers shouldn\'t include sign language.\n\nAI platform that translates Urdu/English video into \nPakistani Sign Language glosses — speech to gloss, end to end.',
+        description: '// because language barriers shouldn\'t include sign language.\n\nAI platform that translates Urdu/English video into \nPakistani Sign Language .',
         stack: ['Node.js', 'MongoDB', 'OpenAI Whisper', 'NLP Engine', 'JWT', 'FFmpeg', 'React'],
         demo: `${import.meta.env.BASE_URL}demos/03_signity.mp4`,
         repo: null,
