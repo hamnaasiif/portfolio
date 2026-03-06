@@ -2,7 +2,7 @@
 
 A fully interactive personal portfolio website. Built to break out of the standard portfolio mold, it features a custom design language blending crisp typography, a retro-futuristic terminal aesthetic, and satisfying micro-animations.
 
-**[View Live Portfolio ↗](https://hamnaasiif.github.io/My-Portfolio/)**
+**[View Live Portfolio ↗](https://hamnaasiif.github.io/portfolio/)**
 
 ---
 
